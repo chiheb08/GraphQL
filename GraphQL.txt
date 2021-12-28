@@ -1,0 +1,7 @@
+rest 									||    GraphQL 
++Multiples requetes                                                           +une requete 
++Problème d'over et under fetching                                            +recuperer exactement ce que vous voulez  
++Il ya une dependance entre les deux equipes frontend et backend 	      +les deux equipes frontend et backend peuvent travailler separement	
+
+
+Quand utilier GraphQL ?? 

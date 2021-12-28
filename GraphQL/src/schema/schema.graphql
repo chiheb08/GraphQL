@@ -1,0 +1,21 @@
+enum TodoStatusEnum {
+WAITING 
+IN_PROGESS
+CANCELED
+DONE
+}
+
+
+type Todo {
+id : ID!
+name:String!
+content:String!
+status:TodoStatusEnum!
+}
+
+
+type Query {
+      hello(name:String): String!
+      getTodos:[Todo]!
+      getTodoById(id:Int):Todo!
+}
